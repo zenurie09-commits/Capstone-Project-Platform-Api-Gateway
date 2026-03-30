@@ -6,9 +6,6 @@ spring:
 #    fail-fast
     import: "configserver:"
 
-#  cloud:
-#    config:
-#      uri: http://config.platform:9000
   cloud:
     config:
-      uri: http://localhost:9000
+      uri: http://config.platform:9000
